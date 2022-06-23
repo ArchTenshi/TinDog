@@ -1,0 +1,191 @@
+/* Global */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 7rem;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0 2rem;
+}
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 0;
+}
+
+/* Header */
+.container-fluid {
+  padding: 3% 15%;
+}
+.download-button {
+  margin-right: 20px;
+  position: relative;
+  z-index: 1;
+}
+#header-title {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding: 0 0 3rem 0;
+  position: relative;
+  z-index: 1;
+}
+.iphone-mockup {
+  position: absolute;
+  margin-left: 10%;
+  transform: rotate(30deg);
+  width: 18%;
+  z-index: 0;
+}
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 8rem;
+  z-index: 0;
+}
+
+/* Features Section */
+#features {
+  background-color: #fff;
+  height: auto;
+  padding: 12rem 4rem;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+}
+.feature-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.icon {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Carousel  */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 2%;
+  width: 15%;
+}
+
+.testimonial-text {
+  font-size: 4rem;
+  font-weight: 900;
+  padding-bottom: 3rem;
+}
+.signature {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Press Section  */
+.carousel-item {
+  padding: 15%;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-img {
+  margin: 3%;
+  width: 13%;
+}
+
+/* Pricing Section  */
+.big {
+  padding-top: 0;
+}
+.card {
+  height: 350px;
+}
+
+.card-footer {
+  background-color: #fff;
+  border: none;
+}
+.card-header {
+  font-size: 2.5rem;
+}
+.card-title {
+  font-weight: 600;
+}
+.mastiff {
+  padding-bottom: 0;
+}
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+  width: 100%;
+}
+.tarrif {
+  padding: 5% 2%;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #ff4c68;
+  padding: 10% 15%;
+  text-align: center;
+}
+.cta-title {
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: 900;
+  padding-bottom: 5%;
+}
+
+/* Footer Section  */
+.copyright {
+  padding-top: 1.5rem;
+}
+#footer {
+  background-color: #fff;
+  padding: 4% 15%;
+  text-align: center;
+}
+.social-media {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+/* Responsiveness */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-mockup {
+    margin-left: 0;
+    position: static;
+    padding-top: 15%;
+    transform: rotate(0deg);
+    width: 100%;
+  }
+  .feature-box {
+    padding: 10% 0;
+  }
+}
