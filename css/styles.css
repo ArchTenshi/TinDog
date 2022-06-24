@@ -3,11 +3,28 @@ body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
 p {
   color: #8f8f8f;
 }
 .container-fluid {
   padding: 7% 15%;
+}
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
 }
 /* Navigation Bar */
 .navbar {
@@ -35,11 +52,7 @@ p {
 }
 
 #header-title {
-  color: white;
-  font-family: "Montserrat", sans-serif;
   font-size: 4.5rem;
-  font-weight: 900;
-  line-height: 1.5;
   padding: 0 0 3rem 0;
   position: relative;
   z-index: 1;
@@ -56,25 +69,16 @@ p {
   text-align: left;
   z-index: 0;
 }
-
 .title-container {
   padding: 3% 15% 10%;
 }
-
-
 /* Features Section */
 #features {
-  background-color: #fff;
-  height: auto;
   position: relative;
 }
-.feature-box {
-  text-align: center;
-}
+
 .feature-title {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
-  font-weight: 700;
 }
 .icon {
   color: #ef8172;
@@ -88,9 +92,6 @@ p {
 /* Carousel  */
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
 }
 
 .testimonial-image {
@@ -101,7 +102,6 @@ p {
 
 .testimonial-text {
   font-size: 4rem;
-  font-weight: 900;
   padding-bottom: 3rem;
 }
 .signature {
@@ -113,7 +113,6 @@ p {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
 }
 .press-img {
   margin: 3%;
@@ -125,7 +124,7 @@ p {
   padding-top: 0;
 }
 .card {
-  height: 350px;
+  height: 370px;
 }
 
 .card-footer {
@@ -134,30 +133,17 @@ p {
 }
 .card-header {
   font-size: 2.5rem;
+  font-weight: 400;
 }
-.card-title {
-  font-weight: 600;
-}
+
 .mastiff {
   padding-bottom: 0;
 }
-#pricing {
-  text-align: center;
-  width: 100%;
-}
-.tarrif {
-  padding: 5% 2%;
-}
 
 /* CTA Section */
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-}
+
 .cta-title {
-  color: #fff;
   font-size: 4.5rem;
-  font-weight: 900;
   padding-bottom: 5%;
 }
 
@@ -166,9 +152,7 @@ p {
   padding-top: 1.5rem;
 }
 #footer {
-  background-color: #fff;
   padding: 4% 15%;
-  text-align: center;
 }
 .social-media {
   font-size: 1.2rem;
@@ -186,7 +170,7 @@ p {
     position: static;
     padding-top: 15%;
     transform: rotate(0deg);
-    width: 100%;
+    width: 60%;
   }
   .feature-box {
     padding: 10% 0;
