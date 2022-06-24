@@ -57,6 +57,11 @@ p {
   z-index: 0;
 }
 
+.title-container {
+  padding: 3% 15% 10%;
+}
+
+
 /* Features Section */
 #features {
   background-color: #fff;
